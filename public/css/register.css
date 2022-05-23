@@ -1,0 +1,132 @@
+.title,
+.register h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title {
+    text-align: center;
+}
+
+.register label .title {
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.register h4:not(.title):not(.interest-title) {
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+.interest-title {
+    padding-top: 50px;
+}
+
+.register form {
+    width: 70%;
+    border: none;
+    background-color: white;
+    padding: 40px 25px;
+    margin: 0 auto;
+}
+
+.user-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-data input,
+.birth_date {
+    margin: 5px 0px;
+    background-color: var(--lightGray);
+    color: var(--darkGray);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.user-data input:not(.name):not(.email) {
+    width: 49%;
+}
+
+.name,
+.email,
+.birth_date {
+    width: 100%;
+}
+
+.birth_date_container{
+    padding-top: 80px;
+}
+
+.container {
+    position: relative;
+}
+
+.radio,
+.checkbox {
+    color: var(--darkGray);
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.radio {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.radio div {
+    margin-right: 20px;
+}
+
+.radio div input {
+    margin-right: 10px;
+}
+
+.checkbox {
+    justify-content: space-between;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.send-button,
+.reset {
+    color: white;
+    font-size: 14px;
+    width: 45%;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+
+.send-button {
+    background-color: #0022AA;
+    font-weight: 700;
+    
+}
+
+.send-button:hover {
+    background-color: var(--blue);
+}
+
+.reset {
+    background-color: var(--green);
+    font-weight: 300;
+}
+
+.register .reset:hover {
+    background-color: var(--darkGray);
+}

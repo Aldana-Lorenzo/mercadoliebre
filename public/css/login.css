@@ -1,0 +1,47 @@
+.login h4 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.login form {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    background-color: white;
+    padding: 40px 25px;
+    margin: 0 auto;
+}
+
+.login input {
+    background-color: var(--lightGray);
+    color: var(--darkGray);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.login .send-button {
+    background-color: #0022AA;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+
+.login .send-button:hover {
+    background-color: var(--blue);
+}
