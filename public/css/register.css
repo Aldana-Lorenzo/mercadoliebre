@@ -13,13 +13,8 @@
     margin-bottom: 25px;
 }
 
-.register h4:not(.title):not(.interest-title) {
-    padding-top: 25px;
-    margin-bottom: 10px;
-}
-
-.interest-title {
-    padding-top: 50px;
+.register h4:not(.title) {
+    padding: 25px 0px 10px;
 }
 
 .register form {
@@ -57,40 +52,42 @@
     width: 100%;
 }
 
-.birth_date_container{
-    padding-top: 80px;
-}
-
-.container {
-    position: relative;
+.container-radio,
+.container-checkbox {
+    display: flex;
+    flex-direction: column;
+    /*position: relative;*/
 }
 
 .radio,
 .checkbox {
     color: var(--darkGray);
-    margin-top: 15px;
-    margin-left: 30px;
+    padding-left: 30px;
+    /*position: absolute;*/
 }
 
 .radio {
-    position: absolute;
     left: 150px;
-    top: 15px;
+    top: 25px;
 }
 
-.radio div {
+.radio div
+.checkbox div {
     margin-right: 20px;
 }
 
-.radio div input {
+.radio div input,
+.checkbox div input {
     margin-right: 10px;
 }
 
 .checkbox {
-    justify-content: space-between;
-    position: absolute;
     left: 150px;
-    top: 90px;
+    top: 25px;
+}
+
+.birth_date_container {
+
 }
 
 .buttons {
