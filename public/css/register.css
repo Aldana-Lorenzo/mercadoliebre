@@ -108,6 +108,7 @@
     width: 45%;
     margin-top: 35px;
     padding: 10px;
+    border: none;
     border-radius: 8px;
     transition: background-color 0.5s;
 }
